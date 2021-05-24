@@ -62,8 +62,6 @@ table{
 }
 td{
     height: 50px;
-   
-   
 }
 
 thead{
@@ -73,4 +71,28 @@ thead{
 }
 .odd{
     background-color: rgb(137, 197, 221) ;
+}
+
+/* Remainder Section */
+
+h4{
+    color: rgb(95, 95, 95);
+}
+
+h3{
+    color:white;
+    padding-top: 10px;
+    padding-left:5px;
+}
+
+.container{
+    width:200px;
+    height: 200px;
+}
+
+.bg1{
+    background: url("../img/monitor.jpg");
+}
+.bg2{
+    background: url("../img/graph.jpg");
 }
