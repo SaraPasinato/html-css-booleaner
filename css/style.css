@@ -18,6 +18,7 @@ header{
 /*main*/
 section , article{
     margin-top: 20px;
+
 }
 /* section info */
 h1{
@@ -41,4 +42,14 @@ h1{
 /*Section immages*/
 figcaption{
     font-size: x-small;
+}
+
+/*section article 1*/
+.highlight{
+    background-color: yellow;
+}
+
+/*section ul */
+ul{
+    padding:12px;
 }
