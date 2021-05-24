@@ -1,3 +1,4 @@
+/* header */
 header{
     background-color: cornflowerblue;
 }
@@ -13,4 +14,22 @@ img{
     height: 100px;
     background-size: 20%;
     background-color: contain;
+}
+
+/* section info */
+h1{
+    font-size: 46px;
+}
+
+.info{
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+    margin-top: 0;
+}
+.name{
+    color: rgb(82, 172, 207);
+}
+
+.date{
+    font-size: smaller;
 }
