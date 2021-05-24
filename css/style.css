@@ -3,7 +3,7 @@ header{
     background-color: cornflowerblue;
 }
 
-img{
+.logo{
     margin-top: 50px;
     text-align: left;
     width: 10%;
@@ -15,7 +15,10 @@ img{
     background-size: 20%;
     background-color: contain;
 }
-
+/*main*/
+section , article{
+    margin-top: 20px;
+}
 /* section info */
 h1{
     font-size: 46px;
@@ -33,4 +36,9 @@ h1{
 
 .date{
     font-size: smaller;
+}
+
+/*Section immages*/
+figcaption{
+    font-size: x-small;
 }
