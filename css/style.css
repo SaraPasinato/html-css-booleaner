@@ -1,7 +1,7 @@
 
 /* header */
 header{
-    background-color:rgb(61, 155, 192);
+    background-color:rgb(83, 163, 252);
 }
 
 .logo{
@@ -15,6 +15,7 @@ header{
     height: 100px;
     background-size: 20%;
     background-color: contain;
+
 }
 /*main*/
 section , article{
