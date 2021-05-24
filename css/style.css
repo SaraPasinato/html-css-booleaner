@@ -1,6 +1,6 @@
 /* header */
 header{
-    background-color: cornflowerblue;
+    background-color:rgb(61, 155, 192);
 }
 
 .logo{
@@ -41,7 +41,7 @@ h1{
 
 /*Section immages*/
 figcaption{
-    font-size: x-small;
+    font-size: small;
 }
 
 /*section article 1*/
@@ -58,10 +58,16 @@ ul{
 table{
     width: 100%;
     border-collapse: collapse;
-    text-align: justify;
+    text-align: left;
 }
+
+th{
+   padding: 10px 15px;
+}
+
 td{
     height: 50px;
+    padding: 10px;
 }
 
 thead{
