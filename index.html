@@ -13,24 +13,28 @@
 <body>
     <!-- Header With logo and wallpaper-->
     <header>
+        <div class="box">
         <div class="wallpaper">
-            <img class="logo" src="./img/logo.svg" alt="logo The Booleaner">
+            <img id="logo" src="./img/logo.svg" alt="logo The Booleaner">
+        </div>
         </div>
     </header>
     <!-- Main page with 2 article and 5 section -->
     <main>
+     <div class="box">
         <h1>Internet deve essere al servizio del "bene pubblico: il manifesto di Tim Berners-Lee</h1>
         <section class="info">
-            <span class="author">Scritto da <span class="name">The Booleaner</span><br></span>
-            <span class="date">il 10\10\2020</span>
+            <span id="author">Scritto da <span id="name">The Booleaner</span><br></span>
+            <span id="date">il 10\10\2020</span>
+            <!-- tag: <time> per le date di pubblicazione-->
         </section>
         <!-- section immagies inline block-->
-        <section class="immages">
+        <figure class="immages">
             <img src="img/tim-1.jpg" alt="Tim Berners-Lee profile">
             <img src="img/tim-2.jpg" alt="Tim Berners-Lee front">
             <figcaption>1st Photo: Jhon S. and Jamese L. Knight Foundation, by Scott Henrichsen</figcaption>
             <figcaption>2st Photo: Wikimedia, by Paul Clarke</figcaption>
-        </section>
+        </figure>
         <!-- article  block 1-->
         <article>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem totam incidunt beatae
@@ -60,7 +64,7 @@
                 <thead>
                     <th>Lorem ipsum dolor</th>
                     <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
+                    <th class="w-50">Lorem ipsum dolor</th>
                 </thead>
                 <tbody>
                     <tr class="odd">
@@ -102,7 +106,7 @@
                     elit. Numquam
                     natus unde quaerat expedita </span>obcaecati saepe eum voluptatibus debitis, soluta maxime? Facilis
                 illum a accusantium
-                autem quidem sed totam eum sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                autem quidem sed totam eum sapiente! <mark>Lorem ipsum dolor sit amet</mark> consectetur adipisicing elit. Sed
                 voluptates explicabo tempore atque deserunt praesentium reiciendis officiis aperiam voluptatibus ipsam,
                 quas perspiciatis inventore aliquam dignissimos quis amet provident saepe iste?</p>
         </article>
@@ -115,6 +119,7 @@
                 <h3>Lorem ipsum dolor</h3>
             </div>
         </section>
+    </div>
     </main>
 </body>
 
